@@ -15,7 +15,9 @@ I just tested this, fresh installed (freaked me out!) my production rig, it was 
 
 Once you have the archive in your root directory ( / )
 
-**verify you are in the root directory and see the tar file**
+**CAUTION** 
+
+verify you are in the root directory and see the tar file
 
 cd / 
 ls
@@ -24,4 +26,6 @@ tar -xvpjf backup.tar.bz2 --numeric-owner
 
 replacing backup with your file's date
 
-## this will put weekly backups on your local/remote, as grive sync's the directory. I suggest cleaning out both directories at the same time once a season or as needed. 
+**NOTICE**
+
+this will put weekly backups on your local/remote, as grive sync's the directory. I suggest cleaning out both directories at the same time once a season or as needed. 
