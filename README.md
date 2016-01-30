@@ -13,7 +13,12 @@ I'm sure there's a more clever way, but I just downloaded the archive from googl
 
 I just tested this, fresh installed (freaked me out!) my production rig, it was out for a half hour but fully operational after extract. 
 
-Once you have the archive in your root directiony ** cd / run this command
+Once you have the archive in your root directory ( / )
+
+**verify you are in the root directory and see the tar file**
+
+cd / 
+ls
 
 tar -xvpjf backup.tar.bz2 --numeric-owner
 
