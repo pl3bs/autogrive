@@ -23,3 +23,5 @@ ls
 tar -xvpjf backup.tar.bz2 --numeric-owner
 
 replacing backup with your file's date
+
+## this will put weekly backups on your local/remote, as grive sync's the directory. I suggest cleaning out both directories at the same time once a season or as needed. 
