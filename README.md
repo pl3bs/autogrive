@@ -19,8 +19,7 @@ Once you have the archive in your root directory ( / )
 
 Verify you are in the root directory and see the tar file
 
-cd / 
-ls
+cd / && ls
 
 tar -xvpjf backup.tar.bz2 --numeric-owner
 
