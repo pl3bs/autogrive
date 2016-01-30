@@ -17,7 +17,7 @@ Once you have the archive in your root directory ( / )
 
 **CAUTION** 
 
-verify you are in the root directory and see the tar file
+Verify you are in the root directory and see the tar file
 
 cd / 
 ls
@@ -28,4 +28,4 @@ replacing backup with your file's date
 
 **NOTICE**
 
-this will put weekly backups on your local/remote, as grive sync's the directory. I suggest cleaning out both directories at the same time once a season or as needed. 
+This will put weekly backups on your local/remote, as grive sync's the directory. I suggest cleaning out both directories at the same time once a season or as needed. 
