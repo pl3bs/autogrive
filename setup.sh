@@ -5,7 +5,6 @@ apt-get install grive -y
 mkdir /root/backup
 cd /root/backup
 grive -a
-
-wget blah
-./blah
-
+cd ..
+wget https://raw.githubusercontent.com/pl3bs/autogrive/master/backup.sh
+./backup.sh
