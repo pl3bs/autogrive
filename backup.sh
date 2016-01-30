@@ -11,7 +11,7 @@ mv "$date".tar.bz2 /root/backup
 
 cd /root/backup
 
-grive sync
+grive sync --exclude tar.bz2
 
 # remove local backup post-sync
 
