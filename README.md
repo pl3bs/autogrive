@@ -21,7 +21,7 @@ Verify you are in the root directory and see the tar file
 
 cd / && ls
 
-tar -xvpjf backup.tar.bz2 --numeric-owner
+tar -xvpf backup.tar.bz2 --numeric-owner --use-compress-prog=pbzip2
 
 replacing backup with your file's date
 
