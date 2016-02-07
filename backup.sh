@@ -3,7 +3,7 @@ date=$(date -I)
 
 #create backup of system
 
-tar -cvpf "$date".tar.bz2 --exclude=/"$date".tar.bz2 --exclude=/root/backup --one-file-system --use-compress-prog=pbzip2 /
+tar -cvpjf "$date".tar.bz2 --exclude=/"$date".tar.bz2 --exclude=/root/backup --one-file-system
 
 # move backup and sync to drive
 
