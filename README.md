@@ -28,3 +28,6 @@ replacing backup with your file's date
 **NOTICE**
 
 This will put weekly backups on your local/remote, as grive sync's the directory. I suggest cleaning out both directories at the same time once a season or as needed. 
+
+**TIP**
+If you would like to store a fixed number if backups then uncomment the line containing: ls -A1t | tail -n +9 & MAKE SURE that no other files are stored on your drive. If other files are stored you will be not only storing less backups, but potentially removing these files when the script next executes. I use this line to store 5 copies locally and remotely. No other files are used in the drive. 
